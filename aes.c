@@ -463,7 +463,3 @@ void aes_init(aes_state_t *state)
     aes_print_round_keys(state);
 }
 
-
-
-
-

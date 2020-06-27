@@ -7,7 +7,8 @@ LDFLAGS=-O2 #  -fsanitize=address -fsanitize=undefined
 LIBS=-lbsd
 OBJ=	aes.o \
 	chacha20.o \
-	main.o
+	main.o \
+	rc4.o
 
 #CFLAGS=-Wall -Wextra -Werror
 
